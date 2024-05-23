@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Садовые Инструменты</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .navbar {
+            background-color: #000;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #d4edda !important;
+        }
+        .product {
+            margin-bottom: 30px;
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card-title {
+            color: #000;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #d4edda;
+            margin: 0 15px;
+        }
+        .footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Логотип" style="height: 30px; margin-right: 10px;">
+            Садовые Инструменты
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="katalog.html">Каталог</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="auth.html">Авторизация/Регистрация</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center" style="color: #000;">Каталог товаров</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr1.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title" href = "product.html">Тримеры</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr2.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title" href = "product.html">Дрели</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr3.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title" href = "product.html">Выжигатели травы</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr4.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title" href = "product.html">Мотоблоки</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr5.jpg" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">бензопилы</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr6.jpg" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Бетонорезы</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr7.jpg" class="card-img-top" alt="Product 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Стремянки</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr8.jpg" class="card-img-top" alt="Product 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Лесенки</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product">
+                <div class="card">
+                    <img src="images/pr9.jpg" class="card-img-top" alt="Product 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Виброплиты</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="mb-1">© 2024 Садовые Инструменты</p>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

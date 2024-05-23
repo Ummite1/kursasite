@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас - Садовые Инструменты</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .navbar {
+            background-color: #000;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #d4edda !important;
+        }
+        .about-section {
+            padding: 60px 0;
+            background-color: #fff;
+        }
+        .about-section h2 {
+            color: #000;
+            margin-bottom: 30px;
+        }
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .team {
+            padding: 60px 0;
+        }
+        .team h2 {
+            color: #000;
+            margin-bottom: 30px;
+        }
+        .team-member {
+            margin-bottom: 30px;
+        }
+        .team-member img {
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #d4edda;
+            margin: 0 15px;
+        }
+        .footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Логотип" style="height: 30px; margin-right: 10px;">
+            Садовые Инструменты
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="katalog.html">Каталог</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="auth.html">Авторизация/Регистрация</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- О нас -->
+    <div class="about-section text-center">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы – команда профессионалов, увлеченных садоводством и стремящихся предоставить вам лучшие инструменты и материалы для вашего сада. Наша миссия – помочь вам создать идеальный сад, полный красоты и гармонии.</p>
+            <p>С момента основания нашей компании в 2020 году мы поставили перед собой цель предложить нашим клиентам высококачественные продукты по доступным ценам. Мы постоянно расширяем наш ассортимент и следим за новыми тенденциями в мире садоводства.</p>
+        </div>
+    </div>
+
+    <!-- Наша команда -->
+    <div class="team text-center">
+        <div class="container">
+            <h2>Наша команда</h2>
+            <div class="row">
+                <div class="col-md-4 team-member">
+                    <img src="images/mark.png" alt="Team Member 1" class="img-fluid">
+                    <h4>Марк Григорьев</h4>
+                    <p>Генеральный директор</p>
+                </div>
+                <div class="col-md-4 team-member">
+                    <img src="images/egor.png" alt="Team Member 2" class="img-fluid">
+                    <h4>Герасимов Егор</h4>
+                    <p>Главный агроном</p>
+                </div>
+                <div class="col-md-4 team-member">
+                    <img src="images/ant.png" alt="Team Member 3" class="img-fluid">
+                    <h4>Архипов Антон</h4>
+                    <p>Менеджер по продажам</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="mb-1">© 2024 Садовые Инструменты</p>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
